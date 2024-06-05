@@ -3,7 +3,6 @@
     "description": "To assign status to other models without defining relationships between tables (powered by morphed relation)",
     "type": "package",
     "license": "MIT",
-    "minimum-stability": "stable",
     "require": {
         "php": ">=8.0"
     },
