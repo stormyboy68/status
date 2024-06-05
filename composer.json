@@ -1,0 +1,32 @@
+{
+    "name": "asb/status",
+    "description": "To assign status to other models without defining relationships between tables (powered by morphed relation)",
+    "type": "package",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Farzad.ros68",
+            "email": "abouzar.ros1368@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ASB\\Status\\Providers\\StatusServiceProvider"
+            ],
+            "aliases": {
+                "AsbStatus": "ASB\\Status\\Facades\\AsbStatus"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ASB\\Status\\": "src/"
+        }
+    },
+    "version": "1.0.0"
+}
