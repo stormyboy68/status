@@ -1,6 +1,6 @@
 {
     "name": "asb/status",
-    "description": "To assign status to other models without defining relationships between tables (powered by morphed relation)",
+    "description": "This package is about assigning status to models in Laravel.",
     "type": "package",
     "license": "MIT",
     "require": {
